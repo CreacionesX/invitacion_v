@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Contenedor de confeti -->
+    <div class="confetti-container"></div>
+
+    <!-- Overlay semitransparente -->
+    <div class="overlay"></div>
+
+    <!-- Tarjeta de invitación -->
+    <div class="card" id="card">
+
+        <!-- Nombre cumpleañero -->
+        <h1>Nayra Celeste</h1>
+
+        <!-- Mensaje principal -->
+        <p class="mensaje">
+            ¡Celebro mi cumpleaños y me encantaría que me acompañes!
+        </p>
+
+        <!-- Invitación -->
+        <p class="invitacion">
+            <span class="te-espero">Te espero</span><br>
+
+            <img src="img/foto.jpeg" alt="Decoración" class="imagen-te-espero"><br>
+
+            <!-- Fecha + Ubicación -->
+            <div class="fecha-ubicacion">
+                <span class="fecha">--Sábado--</span><img src="img/diez.png" alt="Día 10" class="numero-img"><span class="fecha">--11:00 hrs--</span>
+
+
+                <a href="https://maps.app.goo.gl/fgCoBSchhqKaAtRd6"
+                   target="_blank"
+                   class="ubicacion-inline">
+                    <img src="img/ubicacion.png" alt="Ubicación">
+                </a>
+            </div>
+        </p>
+
+        <!-- Para -->
+        <span class="para">Para:</span>
+
+        <!-- Nombre invitado -->
+        <div class="nombre" id="nombreInvitado">
+            <span id="nombre">Invitado</span>
+        </div>
+
+        <!-- Botones de respuesta -->
+        <div class="botones">
+            <button class="si" onclick="enviar('Asistiré')">😎 SI ASISTIRÉ</button>
+            <button class="no" onclick="enviar('No asistiré')">😔 NO PODRÉ ASISTIR</button>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            Respuesta registrada automáticamente
+        </div>
+
+    </div>
+
+    <!-- JS principal -->
+    <script src="script.js"></script>
+
+    <!-- JS Confeti -->
+    <script src="confetti.js"></script>
+
+</body>
+</html>
