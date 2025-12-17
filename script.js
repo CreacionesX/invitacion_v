@@ -7,7 +7,7 @@ index.html?id=abc123
 */
 
 const invitados = {
-    "abc12346": "Juan Pérez y Sra",
+    "abc12346": "Nayra Celeste",
     "def456": "María López",
     "ghi789": "Carlos Rodríguez",
     "jkl012": "Familia Gómez"
@@ -121,3 +121,4 @@ function enviar(respuesta) {
 /* HACER FUNCIÓN GLOBAL */
 /* ============================= */
 window.enviar = enviar;
+
