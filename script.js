@@ -152,7 +152,7 @@ function enviar(respuesta) {
     if (localStorage.getItem(storageKey)) return;
 
     const formURL =
-        "https://docs.google.com/forms/d/e/1FAIpQLSffPStYwPf0ZKIaLLDqJGgw08wU8Oa269fhUuEo7qYY0_zUWg/formResponse";
+        "https://docs.google.com/forms/u/0/d/e/1FAIpQLSc3ItT4ldrXxjWQtKw0EYYp46ZvgV6Q1KQYGLeY4L5w4IONJw/formResponse";
 
     const data = new URLSearchParams();
     data.append("entry.1209746996", nombreInvitado); // Nombre
@@ -191,3 +191,4 @@ function enviar(respuesta) {
 /* HACER FUNCIÓN GLOBAL */
 /* ============================= */
 window.enviar = enviar;
+
